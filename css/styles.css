@@ -76,7 +76,7 @@ a {
   background-color: transparent;
   text-transform: uppercase;
   transition: background-color 0.3s ease,
-    color 0.3s ease;
+    color 0.5s ease;
 }
 .btn-block {
   width: 288px;
@@ -163,6 +163,7 @@ a {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
 .pricing-plan:nth-child(3) {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -175,6 +176,10 @@ a {
   color: #fff;
   background-color: #696edd;
   background-image: linear-gradient(135.06deg, #a2a7f0 -0.05%, #696edd 100.05%);
+}
+
+.pricing-plan-best .pricing-plan-features {
+  border-color: rgba(110, 114, 142, 0.25);
 }
 
 
@@ -195,17 +200,20 @@ a {
   line-height: 71px;
   letter-spacing: -2.16px;
 }
+
 .pricing-plan-currency {
   margin-right: 8px;
   font-size: 40px;
   line-height: 48.7px;
   letter-spacing: -1.2px;
 }
+
 .pricing-plan-features {
   padding: 0;
   margin: 0;
   margin-bottom: 32px;
 }
+
 .pricing-plan-feature {
   padding: 12px;
   border-top: 1px solid rgb(190, 190, 190);
